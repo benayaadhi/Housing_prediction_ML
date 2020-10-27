@@ -20,18 +20,18 @@
 - Polynomial 
 - XGB Regressor
 
-#### Setelah menggunakan Base, bisa disimpulkan bahwa Base XGBoost mempunyai nilai r2 yang paling tinggi di angka 0.74 / 74%. 
+#### Setelah menggunakan Base, bisa disimpulkan bahwa Base XGBoost mempunyai nilai r2 yang paling tinggi di angka 0.89 / 89%. 
 #### Kemudian saya melakukan Hyper Parameter Tuning terhadap base yang mempunyai nilai r2 paling tinggi yaitu XGBoost 
 
 ### Berikut adalah MAE,MSE,RMSE dan R2 Score untuk masing-masing Base dan XGB yang telah dilakukan Hyper Parameter Tuning
 
 |      |       LinReg |   Polynomial |          XGB |     XGB Tune |
 |-----:|-------------:|-------------:|-------------:|-------------:|
-|  MAE | 1.376473e+05 | 1.258258e+05 | 1.183299e+05 | 1.148515e+05 |
-|  MSE | 4.406999e+10 | 3.445335e+10 | 3.257275e+10 | 2.959628e+10 |
-| RMSE | 2.099285e+05 | 1.856161e+05 | 1.804792e+05 | 1.720357e+05 |
-|   R2 | 6.566701e-01 | 7.315892e-01 | 7.462401e-01 | 7.694285e-01 |
+|  MAE | 1.233683e+05 | 1.011974e+05 | 6.773873e+04 | 6.517926e+04 |
+|  MSE | 3.751736e+10 | 2.455409e+10 | 1.401585e+10 | 1.258816e+10 |
+| RMSE | 1.936940e+05 | 1.566975e+05 | 1.183885e+05 | 1.121970e+05 |
+|   R2 | 7.077188e-01 | 8.087099e-01 | 8.908087e-01 | 9.019312e-01 |
 
 
-#### Dari Tabel diatas, bisa disimpulkan bahwa data test mendapatkan hasil 76,9%. Angka tersebut merupakan angka yang cukup bagus dikarenakan Train nya mendapatkan nilai 89%. 
-#### Tingkat Error (MAE) adalah 21%.
+#### Dari Tabel diatas, bisa disimpulkan bahwa data test mendapatkan hasil 90.1%. Angka tersebut merupakan angka yang cukup bagus dikarenakan Train nya mendapatkan nilai 96%. 
+#### Tingkat Error (MAE) adalah 12%.
